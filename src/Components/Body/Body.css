@@ -1,0 +1,14 @@
+.Body-shap {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.Nav-Section {
+    padding-top: 50px;
+    padding-left: 150px;
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
