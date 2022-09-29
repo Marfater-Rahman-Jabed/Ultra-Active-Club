@@ -1,0 +1,24 @@
+.img-card img {
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.Card {
+    border: 2px solid gray;
+
+    border-radius: 5px;
+    margin: 2px;
+
+}
+
+.InsideCard {
+    padding: 5px;
+}
+
+.btn-list {
+    width: 150px;
+    margin-left: 40px;
+    background-color: rgb(103, 103, 235);
+    border-radius: 5px;
+}

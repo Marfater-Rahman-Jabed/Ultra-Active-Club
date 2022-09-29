@@ -1,5 +1,6 @@
 import './App.css';
-import Body from './Components/Body/Body';
+import Body from './Component/Body/Body';
+
 function App() {
   return (
     <div >

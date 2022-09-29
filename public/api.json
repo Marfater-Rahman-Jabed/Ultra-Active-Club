@@ -1,0 +1,44 @@
+[
+    {
+        "id": "633563e743107a4a17117ee7",
+        "picture": "https://www.wikihow.com/images/thumb/2/22/Perform-Fajr-Salaah-Step-5.jpg/v4-460px-Perform-Fajr-Salaah-Step-5.jpg.webp",
+        "age": 10,
+        "time": 60,
+        "name": " Salah"
+    },
+    {
+        "id": "633563e7f18a3efee957a901",
+        "picture": "https://w7.pngwing.com/pngs/634/315/png-transparent-health-exercise-physical-fitness-walking-hiking-health-physical-fitness-food-leaf.png",
+        "age": 10,
+        "time": 25,
+        "name": "Morning Walk"
+    },
+    {
+        "id": "633563e7d47e77a6bbe667e8",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw4ZgIvowHuaHPm71v1QQkNP6i3YRgal9iZQ&usqp=CAU",
+        "age": 2,
+        "time": 35,
+        "name": "Breakfast"
+    },
+    {
+        "id": "633563e774e6e9374d349c54",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCQ7yf2knyMZafZU28YmMZdwo2TqJ8FZEtw&usqp=CAU",
+        "age": 6,
+        "time": 55,
+        "name": "Study"
+    },
+    {
+        "id": "633563e7b500ae78d44d39fb",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCQ7yf2knyMZafZU28YmMZdwo2TqJ8FZEtw&usqp=CAU",
+        "age": 20,
+        "time": 60,
+        "name": "School Time"
+    },
+    {
+        "id": "633563e7a0ce74d25be8a884",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8AN1iSbk5A87Qu0lPc4TaGiTWKW_BBEW7ww",
+        "age": 20,
+        "time": 45,
+        "name": "Dinner"
+    }
+]
