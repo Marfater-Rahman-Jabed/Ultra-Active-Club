@@ -56,3 +56,15 @@
 .inline {
     display: inline;
 }
+
+.color {
+    color: lightgray;
+}
+
+.btn-activity {
+    width: 210px;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+}

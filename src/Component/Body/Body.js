@@ -30,7 +30,7 @@ const Body = () => {
                 </div>
                 <div className='info'>
                     <div>
-                        <div className='inline'><h1>75</h1></div>
+                        <div className='inline'><h1>62</h1></div>
                         <p>Weight</p>
                     </div>
                     <div>
@@ -38,10 +38,31 @@ const Body = () => {
                         <p>Height</p>
                     </div>
                     <div>
-                        <h1>25</h1>
+                        <h1>22</h1>
                         <p>Age</p>
                     </div>
                 </div>
+                <div>
+                    <br /><br />
+                    <h2>Add A Break</h2>
+                    <div className='info'>
+                        <div>10s</div>
+                        <div>20s</div>
+                        <div>30s</div>
+                        <div>40s</div>
+                    </div>
+                </div>
+                <div>
+                    <br /><br />
+                    <h2>Excercise Details</h2>
+                    <div>
+                        <br />
+                        <h5>Excercise Time: <small className='color'>00 seconds</small></h5>
+                        <br />
+                        <h5>Break Time: <small className='color'>00 seconds</small></h5>
+                    </div>
+                </div><br /><br />
+                <button className='btn-activity'>Activity Compleated</button>
             </div>
         </div >
     );
