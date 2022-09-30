@@ -79,7 +79,7 @@
     background-color: yellowgreen;
 }
 
-@media only screen and (max-width: 578px) {
+@media only screen and (max-width: 768px) {
     .gridding {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -89,5 +89,18 @@
     .FirstInSecondDiv {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .gridding {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 4fr 1fr; */
+    }
+
+    .FirstInSecondDiv {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }

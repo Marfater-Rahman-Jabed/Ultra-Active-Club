@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import Card from '../Card/Card';
-import './Body.css'
+import './Body.css';
+
+
 const Body = () => {
     const [card, setCard] = useState([]);
     const [arry, setArry] = useState([]);
@@ -93,7 +95,9 @@ const Body = () => {
                         <h5>Break Time: <small className='color'><span id='breakid'>00</span> Seconds</small></h5>
                     </div>
                 </div><br /><br />
-                <button className='btn-activity' >Activity Compleated</button>
+                <div>
+                    <button className='btn-activity'>Activity Compleated</button>
+                </div>
             </div>
         </div >
     );
