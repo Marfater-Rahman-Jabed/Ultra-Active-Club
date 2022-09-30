@@ -61,7 +61,7 @@ const Body = () => {
                     <br /><br />
                     <h2>Add A Break</h2>
                     <div className='info'>
-                        <div>10s</div>
+                        <div >10s</div>
                         <div>20s</div>
                         <div>30s</div>
                         <div>40s</div>
@@ -72,9 +72,9 @@ const Body = () => {
                     <h2>Excercise Details</h2>
                     <div>
                         <br />
-                        <h5>Excercise Time: <small >{total} minutes</small></h5>
+                        <h5>Excercise Time: <small className='color'>{total} minutes</small></h5>
                         <br />
-                        <h5>Break Time: <small className='color'>00 minutes</small></h5>
+                        <h5>Break Time: <small className='color'>00 Seconds</small></h5>
                     </div>
                 </div><br /><br />
                 <button className='btn-activity' >Activity Compleated</button>
