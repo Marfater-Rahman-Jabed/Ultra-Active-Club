@@ -22,3 +22,7 @@
     background-color: rgb(103, 103, 235);
     border-radius: 5px;
 }
+
+.btn-list:hover {
+    background-color: orange;
+}

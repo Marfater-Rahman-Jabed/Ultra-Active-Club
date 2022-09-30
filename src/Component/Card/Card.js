@@ -1,8 +1,10 @@
 import React from 'react';
 import './Card.css'
 const Card = (props) => {
-    console.log(props.data)
-    const { picture, name, age, time } = props.data
+
+    console.log(props.handle)
+    const { picture, name, age, time, id } = props.data
+    const { handle } = props;
     return (
         <div className='Card'>
             <div className='InsideCard'>
@@ -12,7 +14,7 @@ const Card = (props) => {
                 <h2>{name}</h2>
                 <p>Age: {age}</p>
                 <p><small>Time required: {time} min</small></p>
-                <button className='btn-list'>Add to List</button>
+                <button className='btn-list' onClick={() => handle(id)}>Add to List</button>
             </div>
         </div>
     );

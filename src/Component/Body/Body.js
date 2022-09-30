@@ -3,12 +3,18 @@ import { useEffect } from 'react';
 import Card from '../Card/Card';
 import './Body.css'
 const Body = () => {
+
+
     const [card, setCard] = useState([]);
     useEffect(() => {
         fetch('api.json')
             .then(res => res.json())
             .then(data => setCard(data))
     }, [])
+    const AddTOClick = (id) => {
+        console.log('clicked', id);
+    }
+
     return (
         <div className='gridding'>
             <div className='firstDiv'>
@@ -16,7 +22,7 @@ const Body = () => {
                 <h3>Select your Activity</h3>
                 <div className='FirstInSecondDiv'>
                     {
-                        card.map(data => <Card data={data}></Card>)
+                        card.map(data => <Card data={data} handle={AddTOClick}></Card>)
                     }
                 </div>
             </div>
@@ -57,12 +63,12 @@ const Body = () => {
                     <h2>Excercise Details</h2>
                     <div>
                         <br />
-                        <h5>Excercise Time: <small className='color'>00 seconds</small></h5>
+                        <h5>Excercise Time: <small className='color'>00 minutes</small></h5>
                         <br />
-                        <h5>Break Time: <small className='color'>00 seconds</small></h5>
+                        <h5>Break Time: <small className='color'>00 minutes</small></h5>
                     </div>
                 </div><br /><br />
-                <button className='btn-activity'>Activity Compleated</button>
+                <button className='btn-activity' >Activity Compleated</button>
             </div>
         </div >
     );
