@@ -70,6 +70,15 @@
     font-size: large;
 }
 
+.btn-break {
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.btn-break:hover {
+    background-color: yellowgreen;
+}
+
 @media only screen and (max-width: 578px) {
     .gridding {
         display: grid;

@@ -22,7 +22,10 @@ const Body = () => {
         total = total + data.time
     }
 
-
+    const CLick10 = () => { document.getElementById('breakid').innerText = '10' }
+    const CLick20 = () => { document.getElementById('breakid').innerText = '20' }
+    const CLick30 = () => { document.getElementById('breakid').innerText = '30' }
+    const CLick40 = () => { document.getElementById('breakid').innerText = '40' }
 
     return (
         <div className='gridding'>
@@ -61,10 +64,11 @@ const Body = () => {
                     <br /><br />
                     <h2>Add A Break</h2>
                     <div className='info'>
-                        <div >10s</div>
-                        <div>20s</div>
-                        <div>30s</div>
-                        <div>40s</div>
+                        <div><button className='btn-break' onClick={CLick10}>10<span>s</span></button></div>
+                        <div><button className='btn-break' onClick={CLick20}>20<span>s</span></button></div>
+                        <div><button className='btn-break' onClick={CLick30}>30<span>s</span></button></div>
+                        <div><button className='btn-break' onClick={CLick40}> 40<span>s</span></button></div>
+
                     </div>
                 </div>
                 <div>
@@ -74,7 +78,7 @@ const Body = () => {
                         <br />
                         <h5>Excercise Time: <small className='color'>{total} minutes</small></h5>
                         <br />
-                        <h5>Break Time: <small className='color'>00 Seconds</small></h5>
+                        <h5>Break Time: <small className='color'><span id='breakid'>00</span> Seconds</small></h5>
                     </div>
                 </div><br /><br />
                 <button className='btn-activity' >Activity Compleated</button>
