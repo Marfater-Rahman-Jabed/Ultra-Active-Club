@@ -22,10 +22,22 @@ const Body = () => {
         total = total + data.time
     }
 
-    const CLick10 = () => { document.getElementById('breakid').innerText = '10' }
-    const CLick20 = () => { document.getElementById('breakid').innerText = '20' }
-    const CLick30 = () => { document.getElementById('breakid').innerText = '30' }
-    const CLick40 = () => { document.getElementById('breakid').innerText = '40' }
+    const CLick10 = () => {
+        document.getElementById('breakid').innerText = '10';
+        localStorage.setItem('value of break', 10);
+    }
+    const CLick20 = () => {
+        document.getElementById('breakid').innerText = '20';
+        localStorage.setItem('value of break', 20);
+    }
+    const CLick30 = () => {
+        document.getElementById('breakid').innerText = '30';
+        localStorage.setItem('value of break', 30);
+    }
+    const CLick40 = () => {
+        document.getElementById('breakid').innerText = '40';
+        localStorage.setItem('value of break', 40);
+    }
 
     return (
         <div className='gridding'>
